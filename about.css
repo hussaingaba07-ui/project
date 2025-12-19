@@ -1,0 +1,62 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000; 
+    color: #ffffff;          
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #111111;      /* Slightly lighter black for the box */
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #ff0000; /* Red Border */
+}
+
+/* Headings */
+h1 {
+    color: #ff0000;           /* Red Heading */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: #ff0000;           /* Red Subheadings */
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    height: 2px;
+    background: #ff0000;      
+    margin: 20px 0;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;    /* Clean list */
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Red highlights for text */
+.highlight {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666666;
+}
